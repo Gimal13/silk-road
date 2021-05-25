@@ -1,0 +1,15 @@
+{
+  "Nav":{
+    "Main":"Main",
+    "About":"About",
+    "Catalog":"Catalogue",
+    "Cart":"Cart"
+  },
+  "Header":{
+    "title":"Publishing House",
+    "phone":"Contacts:"
+  },
+  "Footer": {
+    "phone":"Contacts:"
+  }
+}

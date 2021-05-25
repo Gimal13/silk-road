@@ -1,0 +1,15 @@
+{
+    "Nav":{
+      "Main":"Bosh sahifa",
+      "About":"Biz haqimizda",
+      "Catalog":"Katalog",
+      "Cart":"Savat"
+    },
+    "Header":{
+      "title":"Nashriyot uyi",
+      "phone":"Kontaktlar:"
+    },
+    "Footer": {
+      "phone":"Kontaktlar:"
+    }
+  }
