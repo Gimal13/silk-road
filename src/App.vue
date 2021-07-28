@@ -1,7 +1,10 @@
 <template>
+<div>
   <Header />
     <router-view />
   <Footer/>
+  
+</div>
 </template>
 
 <script>
@@ -24,6 +27,28 @@ export default {
     src: url("./assets/fonts/KronaOne-Regular.ttf") format("truetype"); 
     font-weight: bold; 
 } */
+
+
+@font-face {
+  font-family: "KronaOne-Regular"; /* тут переименовать */
+  src: url("./assets/fonts/KronaOne-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "Oswald-Regular"; 
+  src: url("./assets/fonts/Oswald-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "PT Mono-Regular"; 
+  src: url("./assets/fonts/PT Mono-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
 
 
 *,
@@ -110,6 +135,14 @@ select {
   -ms-appearance: none;
   appearance: none;
   outline: 0;
+}
+
+/* my styles */
+
+body {
+  
+  background-color: #BBA773;
+  
 }
 
 
